@@ -1,3 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+body {
+    position:relative;
+    overflow-y: scroll;
+    font-family: 'Lato', sans-serif;
+}
 section h3 {
     padding-bottom: 10px;
+    color: #E50A15;
+    font-weight: bold;
+}
+#equipo .col {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.navbar-nav .nav-link.active {
+    background-color: #E50A15;
+    color: #fff;
+}
+@media (max-width: 768px) {
+    #equipo .card {
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
