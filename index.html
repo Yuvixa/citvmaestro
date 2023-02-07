@@ -1,348 +1,390 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <!-- Required meta tags -->
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-        <!-- Bootstrap CSS -->
-        <link
-            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
-            rel="stylesheet"
-            integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
-            crossorigin="anonymous"
-        />
-        <link rel="stylesheet" href="style.css" />
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
 
-        <title>El Maestro -Revisiones Técnicas</title>
-    </head>
-    <body>
-        <!--Nav Bar! inicio -->
+    <title>El Maestro -Revisiones Técnicas</title>
+  </head>
+  <body>
+    <!--Nav Bar! inicio -->
 
-        <header>
-            <div class="container">
-                <nav class="navbar navbar-expand-lg" id="navbar-example">
-                    <a class="navbar-brand" href="#"><img src="img/LOGO_MAESTRO.jpg" alt="Logo El Maestro" class="img-fluid" /></a>
-                    <button
-                        class="navbar-toggler"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#navbarTogglerDemo02"
-                        aria-controls="navbarTogglerDemo02"
-                        aria-expanded="false"
-                        aria-label="Toggle navigation"
-                    >
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                            <li class="nav-item">
-                                <a class="nav-link" aria-current="page" href="#">Inicio</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#about">Nosotros</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#precio">Precio</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#equipo">Equipo</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#local">Local</a>
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
+    <header id="header" class="header-transparent fixed-top">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg" id="navbar-example">
+          <a class="navbar-brand" href="#"
+            ><img
+              src="img/LOGO_MAESTRO.jpg"
+              alt="Logo El Maestro"
+              class="img-fluid"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarTogglerDemo02"
+            aria-controls="navbarTogglerDemo02"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#precio">Precio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#equipo">Equipo</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#local">Local</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!--Nav Bar! fin -->
+
+    <div class="container">
+      <img
+        src="img/citv-maestro-banner.jpg"
+        alt=""
+        class="img-fluid rounded shadow"
+      />
+    </div>
+
+    <main
+      data-bs-spy="scroll"
+      data-bs-target="#navbar-example"
+      data-bs-smooth-scroll="true"
+      class="scrollspy-example bg-body-tertiary p-3 rounded-2"
+      tabindex="0"
+    >
+      <!-- about-- inicio -->
+      <div class="container py-5">
+        <section id="about">
+          <h3>QUIENES SOMOS</h3>
+          <div class="row">
+            <div class="col-md-6">
+              <p>
+                Revisiones Técnicas El Maestro es una institución que tiene como
+                objetivo principal brindar el servicio de Revisiones Técnicas
+                Vehiculares de manera confiable para nuestros usuarios. Además
+                de conscientizar a los peruanos respecto al tema y así disminuir
+                la tasa de accidentes en el Perú.
+              </p>
+              <p>
+                Haz que tu auto este en óptimas condiciones para poder
+                enfrentarse a las pistas y carreteras de nuestro país. Estamos
+                respaldados por el Ministerio de Transportes y Comunicaciones.
+              </p>
             </div>
-        </header>
-        <!--Nav Bar! fin -->
-
-        <div class="container">
-            <img src="img/citv-maestro-banner.jpg" alt="" class="img-fluid rounded shadow" />
-        </div>
-
-        <main
-            data-bs-spy="scroll"
-            data-bs-target="#navbar-example"
-            data-bs-smooth-scroll="true"
-            class="scrollspy-example bg-body-tertiary p-3 rounded-2"
-            tabindex="0"
-        >
-            <!-- about-- inicio -->
-            <div class="container py-5">
-                <section id="about">
-                    <h3>QUIENES SOMOS</h3>
-                    <div class="row">
-                        <div class="col-md-6">
-                            <p>
-                                Revisiones Técnicas El Maestro es una institución que tiene como objetivo principal brindar el servicio de Revisiones
-                                Técnicas Vehiculares de manera confiable para nuestros usuarios. Además de conscientizar a los peruanos respecto al
-                                tema y así disminuir la tasa de accidentes en el Perú.
-                            </p>
-                            <p>
-                                Haz que tu auto este en óptimas condiciones para poder enfrentarse a las pistas y carreteras de nuestro país. Estamos
-                                respaldados por el Ministerio de Transportes y Comunicaciones.
-                            </p>
-                        </div>
-                        <div class="col-md-6">
-                            <p>Somos especialistas en revisiones técnicas vehiculares en el Perú.</p>
-                            <ul>
-                                <li>Respaldados por el Ministerio de Transportes y Comunicaciones</li>
-                                <li>Cumplimos todos los protocolos de seguridad</li>
-                                <li>Local amplio y de última tecnología</li>
-                            </ul>
-                        </div>
-                    </div>
-                </section>
+            <div class="col-md-6">
+              <p>
+                Somos especialistas en revisiones técnicas vehiculares en el
+                Perú.
+              </p>
+              <ul>
+                <li>
+                  Respaldados por el Ministerio de Transportes y Comunicaciones
+                </li>
+                <li>Cumplimos todos los protocolos de seguridad</li>
+                <li>Local amplio y de última tecnología</li>
+              </ul>
             </div>
-            <!-- about -- fin -->
+          </div>
+        </section>
+      </div>
+      <!-- about -- fin -->
 
-            <!-- Precio -- inicio -->
-            <div class="container py-5">
-                <section id="precio">
-                    <div>
-                        <h3>TARIFARIO</h3>
-                    </div>
-                    <table class="table">
-                        <thead class="table-dark">
-                            <tr>
-                                <th scope="col">CODIGO</th>
-                                <th scope="col">DESCRIPCION</th>
-                                <th scope="col">PRECIO (S/.)</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>A01</td>
-                                <td>TAXI</td>
-                                <td>50</td>
-                            </tr>
-                            <tr>
-                                <td>A02</td>
-                                <td>PARTICULAR SEDAN. STATION WAGON Y OTROS</td>
-                                <td>80</td>
-                            </tr>
-                            <tr>
-                                <td>A03</td>
-                                <td>PARTICULAR CAMIONETA SUV</td>
-                                <td>90</td>
-                            </tr>
-                            <tr>
-                                <td>A04</td>
-                                <td>TRANSPORTE INTERPROVINCIAL - M2</td>
-                                <td>100</td>
-                            </tr>
-                            <tr>
-                                <td>A05</td>
-                                <td>TRANSPORTE INTERPROVINCIAL - M3</td>
-                                <td>150</td>
-                            </tr>
-                            <tr>
-                                <td>A06</td>
-                                <td>TRANSPORTE PUBLICO - M2</td>
-                                <td>70</td>
-                            </tr>
-                            <tr>
-                                <td>A07</td>
-                                <td>TRANSPORTE PUBLICO - M3</td>
-                                <td>80</td>
-                            </tr>
-                            <tr>
-                                <td>A08</td>
-                                <td>CAMIONETA PICK UP - N1</td>
-                                <td>100</td>
-                            </tr>
-                            <tr>
-                                <td>A09</td>
-                                <td>TRANSPORTE DE MERCANCIAS - N1</td>
-                                <td>110</td>
-                            </tr>
-                            <tr>
-                                <td>A10</td>
-                                <td>TRANSPORTE DE MERCANCIAS - N2</td>
-                                <td>130</td>
-                            </tr>
-                            <tr>
-                                <td>A11</td>
-                                <td>TRANSPORTE DE MERCANCIAS - N3</td>
-                                <td>150</td>
-                            </tr>
-                            <tr>
-                                <td>A12</td>
-                                <td>SEMIREMOLQUES - O3/ O4</td>
-                                <td>130</td>
-                            </tr>
-                            <tr>
-                                <td>A13</td>
-                                <td>MATERIALES PELIGROSOS- MATPEL</td>
-                                <td>150</td>
-                            </tr>
-                            <tr>
-                                <td>A14</td>
-                                <td>REVISION TECNICA COMPLEMENTARIA</td>
-                                <td>60</td>
-                            </tr>
-                            <tr>
-                                <td>A15</td>
-                                <td>CISTERNAS - O4</td>
-                                <td>150</td>
-                            </tr>
-                            <tr>
-                                <td>A16</td>
-                                <td>HERMETICIDAD/OPACIDAD</td>
-                                <td>50</td>
-                            </tr>
-                            <tr>
-                                <td>A17</td>
-                                <td>TRANSPORTE TURISTICO M2</td>
-                                <td>130</td>
-                            </tr>
-                            <tr>
-                                <td>A18</td>
-                                <td>TRANSPORTE TURISTICO M3</td>
-                                <td>150</td>
-                            </tr>
-                            <tr>
-                                <td>A19</td>
-                                <td>TRANSPORTE DE TRABAJADORESM2 (12 A 15 ASIENTOS)</td>
-                                <td>100</td>
-                            </tr>
-                            <tr>
-                                <td>A20</td>
-                                <td>TRANSPORTE DE TRABAJADORES - M3</td>
-                                <td>120</td>
-                            </tr>
-                            <tr>
-                                <td>A21</td>
-                                <td>TRANSPORTE DE TRABAJADORES (15 A 18 ASIENTOS)</td>
-                                <td>120</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </section>
-            </div>
-            <!-- Precio -- fin -->
+      <!-- Precio -- inicio -->
+      <div class="container py-5">
+        <section id="precio">
+          <div>
+            <h3>TARIFARIO</h3>
+          </div>
+          <table class="table">
+            <thead class="table-dark">
+              <tr>
+                <th scope="col">CODIGO</th>
+                <th scope="col">DESCRIPCION</th>
+                <th scope="col">PRECIO (S/.)</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>A01</td>
+                <td>TAXI</td>
+                <td>50</td>
+              </tr>
+              <tr>
+                <td>A02</td>
+                <td>PARTICULAR SEDAN. STATION WAGON Y OTROS</td>
+                <td>80</td>
+              </tr>
+              <tr>
+                <td>A03</td>
+                <td>PARTICULAR CAMIONETA SUV</td>
+                <td>90</td>
+              </tr>
+              <tr>
+                <td>A04</td>
+                <td>TRANSPORTE INTERPROVINCIAL - M2</td>
+                <td>100</td>
+              </tr>
+              <tr>
+                <td>A05</td>
+                <td>TRANSPORTE INTERPROVINCIAL - M3</td>
+                <td>150</td>
+              </tr>
+              <tr>
+                <td>A06</td>
+                <td>TRANSPORTE PUBLICO - M2</td>
+                <td>70</td>
+              </tr>
+              <tr>
+                <td>A07</td>
+                <td>TRANSPORTE PUBLICO - M3</td>
+                <td>80</td>
+              </tr>
+              <tr>
+                <td>A08</td>
+                <td>CAMIONETA PICK UP - N1</td>
+                <td>100</td>
+              </tr>
+              <tr>
+                <td>A09</td>
+                <td>TRANSPORTE DE MERCANCIAS - N1</td>
+                <td>110</td>
+              </tr>
+              <tr>
+                <td>A10</td>
+                <td>TRANSPORTE DE MERCANCIAS - N2</td>
+                <td>130</td>
+              </tr>
+              <tr>
+                <td>A11</td>
+                <td>TRANSPORTE DE MERCANCIAS - N3</td>
+                <td>150</td>
+              </tr>
+              <tr>
+                <td>A12</td>
+                <td>SEMIREMOLQUES - O3/ O4</td>
+                <td>130</td>
+              </tr>
+              <tr>
+                <td>A13</td>
+                <td>MATERIALES PELIGROSOS- MATPEL</td>
+                <td>150</td>
+              </tr>
+              <tr>
+                <td>A14</td>
+                <td>REVISION TECNICA COMPLEMENTARIA</td>
+                <td>60</td>
+              </tr>
+              <tr>
+                <td>A15</td>
+                <td>CISTERNAS - O4</td>
+                <td>150</td>
+              </tr>
+              <tr>
+                <td>A16</td>
+                <td>HERMETICIDAD/OPACIDAD</td>
+                <td>50</td>
+              </tr>
+              <tr>
+                <td>A17</td>
+                <td>TRANSPORTE TURISTICO M2</td>
+                <td>130</td>
+              </tr>
+              <tr>
+                <td>A18</td>
+                <td>TRANSPORTE TURISTICO M3</td>
+                <td>150</td>
+              </tr>
+              <tr>
+                <td>A19</td>
+                <td>TRANSPORTE DE TRABAJADORESM2 (12 A 15 ASIENTOS)</td>
+                <td>100</td>
+              </tr>
+              <tr>
+                <td>A20</td>
+                <td>TRANSPORTE DE TRABAJADORES - M3</td>
+                <td>120</td>
+              </tr>
+              <tr>
+                <td>A21</td>
+                <td>TRANSPORTE DE TRABAJADORES (15 A 18 ASIENTOS)</td>
+                <td>120</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+      </div>
+      <!-- Precio -- fin -->
 
-            <!-- Equipo -- inicio -->
-            <div class="container py-5">
-                <section id="equipo">
-                    <h3>RELACIÓN DE PERSONAL</h3>
-                    <div class="row">
-                        <div class="col">
-                            <div class="card h-100" style="width: 18rem">
-                                <div class="card-body">
-                                    <h5 class="card-title">JESUS ALEXANDER MOYA ROMANI</h5>
-                                    <h6 class="card-subtitle mb-2 text-muted">Ingeniero Supervisor Titular</h6>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="card h-100" style="width: 18rem">
-                                <div class="card-body">
-                                    <h5 class="card-title">QUEVEDO PLASENCIA RONAL WILBERTH</h5>
-                                    <h6 class="card-subtitle mb-2 text-muted">Ingeniero Supervisor Suplente</h6>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="card h-100" style="width: 18rem">
-                                <div class="card-body">
-                                    <h5 class="card-title">CCASA HERNANDEZ JHON MITCAHEL</h5>
-                                    <h6 class="card-subtitle mb-2 text-muted">Inspectores Técnico - Mecánico</h6>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="card h-100" style="width: 18rem">
-                                <div class="card-body">
-                                    <h5 class="card-title">TELLO MOLOCHO EVER</h5>
-                                    <h6 class="card-subtitle mb-2 text-muted">Inspectores Técnico - Mecánico</h6>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="card h-100" style="width: 18rem">
-                                <div class="card-body">
-                                    <h5 class="card-title">TANTALEAN VASQUEZ ADRIAN ANTHONY</h5>
-                                    <h6 class="card-subtitle mb-2 text-muted">Inspectores Técnico - Mecánico</h6>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-            </div>
-            <!-- Equipo -- fin -->
-
-            <!-- Local -- inicio -->
-            <div class="container py-5">
-                <section id="local">
-                    <h3>DÓNDE NOS ENCONTRAMOS</h3>
-                    <div class="row">
-                        <div class="col-md-6">
-                            <h5 class="card-title">Ubicacion</h5>
-                            <h6 class="card-subtitle mb-2 text-muted">
-                                Av. Fernando Leon de Vivero N° 05 Sub Lote A, Fundo Montenegro (a 200 metros del Antiguo Cementerio General Saraja),
-                                Distrito, Provincia y Departamento de Ica.
-                            </h6>
-                            <br />
-                            <h5 class="card-title">RUC</h5>
-                            <h6 class="card-subtitle mb-2 text-muted">N° 20610167927</h6>
-                            <br />
-                            <h5 class="card-title">Razon Social</h5>
-                            <h6 class="card-subtitle mb-2 text-muted">CITV EL MAESTRO E.I.R.L</h6>
-                            <br />
-
-                            <h5 class="card-title">Celular</h5>
-                            <h6 class="card-subtitle mb-2 text-muted">976994039</h6>
-                            <br />
-                            <h5 class="card-title">Correo</h5>
-                            <h6 class="card-subtitle mb-2 text-muted">
-                                <a class="text-decoration-none" href="mailto:elmaestro.citv@gmail.com">elmaestro.citv@gmail.com</a>
-                            </h6>
-                            <br />
-                            <h5 class="card-title">TIPO DE LINEA</h5>
-                            <h6 class="card-subtitle mb-2 text-muted">01 LINEA MIXTA</h6>
-                            <br />
-                            <h5 class="card-title">ÁREA</h5>
-                            <h6 class="card-subtitle mb-2 text-muted">2940.13 M2</h6>
-                        </div>
-                        <div class="col-md-6">
-                            <iframe
-                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3870.3001766535185!2d-75.74648457159398!3d-14.059443454896455!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9110e2c5d88a4659%3A0xf5c3f6ab85684ea9!2sAv.%20Fernando%20Leon%20de%20Vivero%205%2C%20Ica%2011002!5e0!3m2!1ses-419!2spe!4v1675560019873!5m2!1ses-419!2spe"
-                                width="100%"
-                                height="500"
-                                style="border: 0"
-                                allowfullscreen=""
-                                loading="lazy"
-                                referrerpolicy="no-referrer-when-downgrade"
-                            ></iframe>
-                        </div>
-                    </div>
-                </section>
-            </div>
-            <!-- Local -- fin -->
-        </main>
-        <!-- Footer -- inicio -->
-        <footer class="bg-dark text-white">
-            <div class="container mt-4 py-2">
-                <div class="row align-items-center justify-content-around">
-                    <div class="col-md-4 text-md-start text-center"><img src="img/LOGO_MAESTRO.jpg" alt="Logo El Maestro" class="img-fluid" /></div>
-                    <div class="col-md-8 text-md-end text-center">
-                        <small>© Copyright CitvMaestro. Todos los derechos reservados</small>
-                    </div>
+      <!-- Equipo -- inicio -->
+      <div class="container py-5">
+        <section id="equipo">
+          <h3>RELACIÓN DE PERSONAL</h3>
+          <div class="row">
+            <div class="col">
+              <div class="card h-100" style="width: 18rem">
+                <div class="card-body">
+                  <h5 class="card-title">JESUS ALEXANDER MOYA ROMANI</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">
+                    Ingeniero Supervisor Titular
+                  </h6>
                 </div>
+              </div>
             </div>
-        </footer>
-        <!-- Footer -- fin-->
+            <div class="col">
+              <div class="card h-100" style="width: 18rem">
+                <div class="card-body">
+                  <h5 class="card-title">QUEVEDO PLASENCIA RONAL WILBERTH</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">
+                    Ingeniero Supervisor Suplente
+                  </h6>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100" style="width: 18rem">
+                <div class="card-body">
+                  <h5 class="card-title">CCASA HERNANDEZ JHON MITCAHEL</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">
+                    Inspectores Técnico - Mecánico
+                  </h6>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100" style="width: 18rem">
+                <div class="card-body">
+                  <h5 class="card-title">TELLO MOLOCHO EVER</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">
+                    Inspectores Técnico - Mecánico
+                  </h6>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100" style="width: 18rem">
+                <div class="card-body">
+                  <h5 class="card-title">TANTALEAN VASQUEZ ADRIAN ANTHONY</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">
+                    Inspectores Técnico - Mecánico
+                  </h6>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <!-- Equipo -- fin -->
 
-        <!-- Optional JavaScript; choose one of the two! -->
+      <!-- Local -- inicio -->
+      <div class="container py-5">
+        <section id="local">
+          <h3>DÓNDE NOS ENCONTRAMOS</h3>
+          <div class="row">
+            <div class="col-md-6">
+              <h5 class="card-title">Ubicacion</h5>
+              <h6 class="card-subtitle mb-2 text-muted">
+                Av. Fernando Leon de Vivero N° 05 Sub Lote A, Fundo Montenegro
+                (a 200 metros del Antiguo Cementerio General Saraja), Distrito,
+                Provincia y Departamento de Ica.
+              </h6>
+              <br />
+              <h5 class="card-title">RUC</h5>
+              <h6 class="card-subtitle mb-2 text-muted">N° 20610167927</h6>
+              <br />
+              <h5 class="card-title">Razon Social</h5>
+              <h6 class="card-subtitle mb-2 text-muted">
+                CITV EL MAESTRO E.I.R.L
+              </h6>
+              <br />
 
-        <!-- Option 1: Bootstrap Bundle with Popper -->
-        <script
-            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-            crossorigin="anonymous"
-        ></script>
-    </body>
+              <h5 class="card-title">Celular</h5>
+              <h6 class="card-subtitle mb-2 text-muted">976994039</h6>
+              <br />
+              <h5 class="card-title">Correo</h5>
+              <h6 class="card-subtitle mb-2 text-muted">
+                <a
+                  class="text-decoration-none"
+                  href="mailto:elmaestro.citv@gmail.com"
+                  >elmaestro.citv@gmail.com</a
+                >
+              </h6>
+              <br />
+              <h5 class="card-title">TIPO DE LINEA</h5>
+              <h6 class="card-subtitle mb-2 text-muted">01 LINEA MIXTA</h6>
+              <br />
+              <h5 class="card-title">ÁREA</h5>
+              <h6 class="card-subtitle mb-2 text-muted">2940.13 M2</h6>
+            </div>
+            <div class="col-md-6">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3870.3001766535185!2d-75.74648457159398!3d-14.059443454896455!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9110e2c5d88a4659%3A0xf5c3f6ab85684ea9!2sAv.%20Fernando%20Leon%20de%20Vivero%205%2C%20Ica%2011002!5e0!3m2!1ses-419!2spe!4v1675560019873!5m2!1ses-419!2spe"
+                width="100%"
+                height="500"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+          </div>
+        </section>
+      </div>
+      <!-- Local -- fin -->
+    </main>
+    <!-- Footer -- inicio -->
+    <footer class="bg-dark text-white">
+      <div class="container mt-4 py-2">
+        <div class="row align-items-center justify-content-around">
+          <div class="col-md-4 text-md-start text-center">
+            <img
+              src="img/LOGO_MAESTRO.jpg"
+              alt="Logo El Maestro"
+              class="img-fluid"
+            />
+          </div>
+          <div class="col-md-8 text-md-end text-center">
+            <small
+              >© Copyright CitvMaestro. Todos los derechos reservados</small
+            >
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer -- fin-->
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
