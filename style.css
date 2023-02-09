@@ -12,10 +12,8 @@ section h3 {
   color: #e50a15;
   font-weight: bold;
 }
-#equipo .col {
-  margin-top: 5px;
-  margin-bottom: 5px;
-}
+
+
 .navbar-nav .nav-link.active {
   background-color: #e50a15;
   color: #fff;
